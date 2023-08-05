@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(Rubik-Regular.ttf);
+    src: url(Rubik-SemiBold.ttf);
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5dbfb0;
+    border-radius: 10px;
+}
+
+.navbar {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+ul li ul.dropdown {
+    display: none;
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+    left: 2.8em;
+    top: 3em;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+    left: 2.8em;
+    top: 3em;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: rgba(93, 191, 176, 0.5);
+    line-height: 30px;
+    text-align: top;
+    border: 1px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.isi-dropdown a {
+    color: #D19980 !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323;
+    background: #5dbfb0;
+}
+
+.but {
+    justify-content: space-between;
+    display: flex;
+    width: 25%;
+    align-items: center;
+
+}
+
+.singup {
+    border: none;
+    background-color: transparent;
+    font-family: 'Rubik-SemiBold', sans-serif;
+    font-size: large;
+    transition: .5s;
+}
+
+.singup:hover {
+    transform: scale(1.3);
+}
+
+.singin {
+    font-family: 'Rubik-Regular', sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 5px 25px;
+    background-color: #5dbfb0;
+    border: none;
+    color: white;
+    transition: all .5s;
+}
+
+.singin:hover {
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: #F8D965;
+    border: none;
+    color: #5dbfb0;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 500px;
+    display: flex;
+}
+
+.nbr {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-right: 10;
+    width: 70%;
+    text-decoration: none;
+}
+
+li a {
+    color: #9c9c9c;
+    transition: all .5s;
+}
+
+li a:hover {
+    color: #245750;
+    transform: scale(1.5);
+}
+
+.dropdown {
+    margin-left: 30px;
+    margin-top: -3.2px;
+}
+
+.ab {
+    color: #245750;
+    margin-left: 30px;
+    font-size: larger;
+    border-bottom: 2px solid #f8d965;
+}
+
+.ac {
+    margin-left: 30px;
+}
+
+.ad {
+    margin-left: 30px;
+}
+
+.ae {
+    margin-left: 30px;
+}
+.lgkecil {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 55px;
+    z-index: -1;
+}
+.banner{
+    z-index: -2;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+}
+.aksesoris{
+    position: absolute;
+    width: 100%;
+}
+.head-1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 50;
+    color: #245750;
+    margin-top: 3.5em;
+    margin-left: 9.5em;
+    text-align: center;
+}
+.pes{
+    color: #d5a38c;
+    font-weight: 600;
+}
+sc-1{
+    width: 100%;
+    height: 200%;
+    background-color: white;
+    position: relative;
+}
+.photo-1{
+    margin-top: 40em;
+    width: 55%;
+}
+.teks{
+    position: absolute;
+}
+.peach{
+    color: #D19980;
+    font-weight: 400;
+}
+.ha-1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1em;
+    margin-left: 16.5em;
+    margin-top: -8.7em;
+    color: #245750;
+}
+.desk{
+    font-weight: 400;
+    font-size: large;
+    margin-top: -13em;
+    margin-left: 45.8em;
+    line-height: 23px;
+}
+.aksesoris-2 {
+    width: 100%;
+    position: absolute;
+    margin-left: -47em;
+    margin-top: 24em;
+    z-index: -1;
+    height: 100%;
+}
+.aksesoris-3{
+    width: 100%;
+    margin-top: -9.5em;
+}
+.sc-2{
+    background-color: white;
+    width: 100%;
+    height: 100em;
+}
+.judul{
+    font-size: 50;
+    text-align: center;
+    color: #245750;
+    margin-bottom: 1em;
+}
+.arrow-1{
+	 	position:absolute;
+    margin-left: 6em;
+    margin-top: 3em;
+    transition: .5s;
+    width: 2em;
+}
+.sc-2 button{
+	border: 1px solid red;
+}
+.arrow-1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.arrow-2 {
+    margin-left: 78em;
+    margin-top: -31em;
+    transition: .5s;
+    width: 2em;
+}
+
+.arrow-2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.gallery-container{
+    margin-left: 5em;
+    transition: all .5s;
+}
+.gallery-item{
+    width: 20em;
+    margin-left: 8em;
+    transition: all .5s;
+}
+.gallery-item1 {
+    width: 17.5em;
+    margin-left: 10px;
+    transition: all .5s;
+}
+.gallery-item2 {
+    width: 20em;
+    margin-left: 10px;
+    transition: all .5s;
+}
+.gallery-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gallery-item2:hover {
+    transform: scale(1.1);
+    cursor: pointer;}
+
+.gallery-item1:hover {
+transform: scale(1.1);
+cursor: pointer;
+}
+.banner-1{
+    width: 100%;
+    margin-top: 10em;
+}
+.orang-arab{
+    position: absolute;
+    width: 48%;
+    margin-top: 4.9em;
+    margin-left: -36.4em;
+}
+.foot-desk{
+    position: absolute;
+    line-height: 30px;
+    font-size: 21px;
+    color: #245750;
+    margin-top: -13em;
+    margin-left: 3em;
+}
+.garis{
+    border-bottom: 4px solid #245750;
+    width: 12em;
+    margin-top: -8em;
+    margin-left: 4em;
+    position: absolute;
+    border-radius: 10px;
+}
+.syekh{
+    position: absolute;
+    font-size: 33px;
+    color: #245750;
+    margin-top: -3.4em;
+    margin-left: 1.9em;
+
+}
+.mudir{
+    color: #245750;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -2.8em;
+    margin-left: 3.2em;
+}
+.footer{
+width: 100%;
+height: 30em;
+}
+.logo-gede{
+    margin-left: 30%;
+    margin-top: -5em;
+}
+.copy{
+    margin-left: 45%;
+    margin-top: 22em;
+    color: #245750;
+}

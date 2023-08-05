@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(Rubik-Regular.ttf);
+    src: url(Rubik-SemiBold.ttf);
+}
+/* #245750 
+	hijau
+	#d19980
+	peach
+	#f8d965
+	kuning
+    13802
+*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5dbfb0;
+    border-radius: 10px;
+}
+.navbar {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+ul li ul.dropdown {
+    display: none;
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+    left: 2.8em;
+    top: 3em;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+    left: 2.8em;
+    top: 3em;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: rgba(93, 191, 176, 0.5);
+    line-height: 30px;
+    text-align: top;
+    border: 1px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.isi-dropdown a {
+    color: #D19980 !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323;
+    background: #5dbfb0;
+}
+
+.but {
+    justify-content: space-between;
+    display: flex;
+    width: 25%;
+    align-items: center;
+
+}
+
+.singup {
+    border: none;
+    background-color: transparent;
+    font-family: 'Rubik-SemiBold', sans-serif;
+    font-size: large;
+    transition: .5s;
+}
+
+.singup:hover {
+    transform: scale(1.3);
+}
+
+.singin {
+    font-family: 'Rubik-Regular', sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 5px 25px;
+    background-color: #5dbfb0;
+    border: none;
+    color: white;
+    transition: all .5s;
+}
+
+.singin:hover {
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: #F8D965;
+    border: none;
+    color: #5dbfb0;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 500px;
+    display: flex;
+}
+
+.nbr {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-right: 10;
+    width: 70%;
+    text-decoration: none;
+}
+
+li a {
+    color: #9c9c9c;
+    transition: all .5s;
+}
+
+li a:hover {
+    color: #245750;
+    transform: scale(1.5);
+}
+
+.dropdown {
+    margin-left: 30px;
+    margin-top: -3.2px;
+}
+
+.ab {
+    margin-left: 30px;
+}
+
+.ac {
+    margin-left: 30px;
+}
+
+.ad {
+    color: #245750;
+    margin-left: 30px;
+    font-size: larger;
+    border-bottom: 2px solid #f8d965;
+}
+
+.ae {
+    margin-left: 30px;
+}
+.lgkecil {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 55px;
+    z-index: -1;
+}
+.upper{
+    width: 100%;
+    position: relative;
+    z-index:-5;
+}
+.head-text{
+    color: #245750;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 35%;    
+    margin-top: -4.5em;
+    position: absolute; 
+}
+.each{
+    font-weight: 400;
+    color: #d19980;
+}
+.hiasan{
+    width: 98%;
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: -83.7em;
+} 
+.bangunan{
+    margin-top: 10em;
+    margin-left: 6em;
+    width: 25%;
+}
+.part-1{
+    width: 100%;
+    margin-top: -39em;
+    z-index: -1; 
+}
+.trans{
+    width: 50%;
+    height: 68%;
+    margin-top: -31.5em;
+    margin-left: 33em;
+}
+.gureen{
+    color: #245750;
+    margin-top: -16.5em;
+    margin-left: 19em;
+    font-size: 29px;
+}
+.to-board{
+    color: #d19980;
+    font-weight: 400;
+}
+.guren{
+    color: #d19980;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 25.1em;
+    margin-top: 0.6em;
+}
+.griin{
+    color: #245750;
+    font-weight: 600;
+}
+.buled{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 34.5em;
+    margin-top: 1em;
+    width: 2%;
+}
+.buled img{
+    margin: .5em 0px;
+}
+.tex{
+    position: absolute;
+    color: #245750;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    margin-top:15px;
+    margin-left: 31em;
+}
+.tex p{
+    margin:11px 0px;
+}
+.penerimaan{
+    margin-top:10px;
+    margin-left:-36px;
+    font-size: 18px;
+    color: #245750;
+}
+.buled1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    width: 29px;
+}
+.buled1 img{
+    margin: .3em 0px;
+}
+.tex .texts{
+    margin-left:40px;
+    margin-top: 28px;
+}
+.tex .texts p{
+    margin: 20px 0px;
+}
+.kard{
+    position: absolute;
+    width: 19%;
+    z-index: 1;
+    margin-top: -7.5em;
+    margin-left: 59.4em;
+}
+.jam-kerja{
+    z-index: 2;
+    margin-top: -4.5em;
+    margin-left: 46.5em;
+    position: absolute;
+    color: #d19980;
+    font-size: 21px;
+}
+.kerja{
+    color: #245750;
+    font-weight: 600;
+}
+.play{
+    z-index: 2;
+    position: absolute;
+    width: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 61em;
+    margin-top: -6.3em;
+}
+.play img{
+    margin-top: 3em
+}
+.jadwal{
+    position: absolute;
+    color: #d19980;
+    font-size: 17px;
+    flex-direction: column;
+    margin-left: 58.8em;
+    margin-top: -5.8em;
+    z-index: 2;
+}
+.jadwal p{
+    margin-top: 2.6em;
+}
+.jam-jadwal{
+    color: #245750;
+    position: absolute;
+    margin-left: 62.5em;
+    margin-top: -5.2em;
+    z-index: 2;
+}
+.jam-jadwal p{
+    margin-top: 3em;
+}
+.trans-0{
+    position: absolute;
+    margin-top: 25em;
+    margin-left: 33em;
+    width: 50%;
+    height: 67%;
+}
+.komen{
+    position: absolute;
+    color: #245750;
+    margin-top: 11.5em;
+    margin-left: 15.1em;
+    font-size: 38px;
+    font-weight: 600;
+}
+.sepan{
+    color: #d19980;
+    font-weight: 400;
+}
+.deskripsi-kontak{
+    color: #245750;
+    font-size: 18px;
+    margin-top: 27.5em;
+    margin-left: 32em;
+    z-index: 2;
+    position: absolute;    
+}
+.tutup input{
+    width: 38%;
+    padding: 20px 40px 100px 30px;
+    background: transparent;
+    border: 3px solid #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 33.8em;
+    margin-top: 31.5em;
+    font-weight: 600;
+    font-size: 17px;
+}
+.pesan-kamu::placeholder{
+    font-size: 19px;
+}
+.nama-kamu {
+   width: 38%;
+    padding: 7px 40px 5px 30px;
+    background: transparent;
+    border: 3px solid #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 35.9em;
+    margin-top: 43.5em;
+    font-weight: 600;
+    font-size: 16px; 
+}
+.email-kamu {
+   width: 38%;
+    padding: 7px 42px 5px 30px;
+    background: transparent;
+    border: 3px solid #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 35.9em;
+    margin-top: 46.5em;
+    font-weight: 600;
+    font-size: 16px; 
+}
+.submitt{
+    text-align: center;
+    border-radius: 17px;
+    background-color: #f8d965;
+    border: 3.5px solid #f8d965;
+    width: 12%;
+    padding-top: 10px;
+    color: #245750;
+    height: 4%;
+    margin-top: 53em;
+    margin-left: 38.3em;
+    font-weight: 600;
+    position: absolute;
+    font-size: 15px;
+    transition: all .5s;
+}
+.submitt:hover{
+    background-color: transparent;
+    
+}
+.maps{
+    border-radius: 10px; 
+    border: none;
+    position: absolute;
+    margin-top: 25em;
+    margin-left: 6em;
+}
+.get-loc{
+    position: absolute;
+    margin-top: 47em;
+    width: 25%; 
+    margin-left: 6em;   
+}
+.dap-loc{
+    z-index: 2;
+    color: #fff;
+    margin-top: 40.5em;  
+    margin-left: 8.8em;
+    position: absolute;
+    font-size: 19px;
+    font-weight: 600;
+}
+.get-loc:hover{
+    cursor: pointer;
+}
+.dap-loc:hover{
+    cursor: pointer;
+}
+.daftar{
+    width: 25%;
+    position: absolute;
+    margin-top: 52em;
+    margin-left: 6em;
+}
+.daftar-0{
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 44.6em;
+    margin-left: 8.8em;
+}
+.logo-foot{
+    width: 25%;
+    position: absolute;
+    margin-top: 80em;
+    margin-left: 38%;
+}
+.copy{
+    position: absolute;
+    margin-top: 108%;
+    margin-left: 47%; 
+    color: #245750;   
+}
